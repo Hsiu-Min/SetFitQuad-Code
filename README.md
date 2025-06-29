@@ -1,5 +1,5 @@
 # SetFitQuad
-This repository contains the annotated data and code for our paper **[Applying Sample Selection Strategies and Few-Shot Learning for Aspect Sentiment Quad Prediction]**.
+This repository contains the annotated data and code for our paper **[SetFitQuad: A Few-Shot Framework for Aspect Sentiment Quad Prediction with Sampling Strategies]**.
 
 ## Short Summary 
 - **SetFitQuad** focuses on the **Aspect Sentiment Quad Prediction (ASQP)** task.  
