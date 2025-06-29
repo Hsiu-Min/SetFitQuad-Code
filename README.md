@@ -1,18 +1,21 @@
 # SetFitQuad
-This repository contains the annotated data and code for our paper **[SetFitQuad: A Few-Shot Framework for Aspect Sentiment Quad Prediction with Sampling Strategies]**.
+This repository provides the source code and setup instructions for our paper
+**[SetFitQuad: A Few-Shot Framework for Aspect Sentiment Quad Prediction with Sampling Strategies]**.
+*(Submitted to IEEE Access)*
 
-## Short Summary 
-- **SetFitQuad** focuses on the **Aspect Sentiment Quad Prediction (ASQP)** task.  
-- The model predicts quadruples from a given sentence, consisting of:  
+## Task Summary
+- SetFitQuad addresses the **Aspect Sentiment Quad Prediction (ASQP)** task.  
+- Given a sentence, the goal is to extract sentiment quadruples of the form:  
   - **Aspect Term (AT)**  
   - **Aspect Category (AC)**  
   - **Opinion Term (OT)**  
   - **Sentiment Polarity (SP)**  
 
-## Data
-- We use two datasets, **`rest15`** and **`rest16`**, available under [JaquanTW/fewshot-absaquad](https://huggingface.co/datasets/JaquanTW/fewshot-absaquad).
+## Dataset
+- We use the benchmark datasets **Rest15** and **Rest16**, available via Hugging Face:
+-  [Hugging Face – fewshot-absaquad](https://huggingface.co/datasets/JaquanTW/fewshot-absaquad)
 
-## Requirements
+## Environment Setup & Requirements
 ```txt
 setfit
 transformers
